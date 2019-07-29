@@ -1557,7 +1557,6 @@ pre {
 
 .form-control {
   display: block;
-  width: 100%;
   padding: 0.375rem 0.75rem;
   font-size: 1rem;
   line-height: 1.5;
@@ -8252,7 +8251,6 @@ header {
         display: none; } }
 
 .form-control {
-  height: 52px !important;
   background: #fff !important;
   color: #737373 !important;
   font-size: 18px;
