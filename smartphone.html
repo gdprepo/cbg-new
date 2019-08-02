@@ -129,7 +129,7 @@
 	      <div class="container-fluid">
 	        <div class="section-2-blocks-wrapper d-flex row no-gutters">
 
-				<iframe width="50%" rel="0" showinfo="1" src="https://www.youtube.com/embed/5kf7e7aUuc0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				<iframe style="height: 200px" width="100%" rel="0" showinfo="1" src="https://www.youtube.com/embed/5kf7e7aUuc0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 			  
 	          <div class="text col-md-6 ftco-animate">
@@ -222,7 +222,7 @@
 		    			</div>
 	    			</div>
 	    			<div class="col-md-3 d-flex justify-content-center align-items-center bg-light ftco-animate">
-		    			<div class="btn-view">
+		    			<div style="margin-top: 50px; margin-bottom: 30px" class="btn-view">
 		    				<p><a href="about.html">En savoir +</a></p>
 		    			</div>
 	    			</div>
@@ -339,7 +339,7 @@
 	    <section class="ftco-section">
 	      <div class="container">
 	        <div class="row d-flex">
-	          <div style="height: 300px" class="col-md-4 d-flex ftco-animate">
+	          <div style="height: 300px; margin-bottom: 50px; margin-top: -100px" class="col-md-4 d-flex ftco-animate">
 	          	<div class="blog-entry align-self-stretch">
 	              <a href="blog-single.html" class="block-20" style="background-image: url('images/image_1.jpg');">
 	              </a>
@@ -349,7 +349,7 @@
 	              </div>
 	            </div>
 	          </div>
-	          <div style="height: 50px" class="col-md-4 d-flex ftco-animate">
+	          <div style="height: 50px; margin-bottom: 300px" class="col-md-4 d-flex ftco-animate">
 	          	<div class="blog-entry align-self-stretch">
 	              <a href="blog-single.html" class="block-20" style="background-image: url('images/image_2.jpg');">
 	              </a>
@@ -373,52 +373,44 @@
 	      </div>
 	    </section>
 
-		<div style="margin-bottom: -100px" id="map"></div>
-
-	    <section id="contact" class="ftco-quote ftco-animate">
-	    	<div class="container">
-	    		<div class="row d-flex">
-	    			<div class="col-md-9 req-quote py-5 align-items-center img" style="background-image: url(images/bg_1.jpg);">
-		    			<h3 class="ml-md-3">Vous voulez nous contacter ?</h3>
-	    			</div>
+		<iframe style="margin-top: 150px" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d125203.30166606864!2d-1.0228957743427676!3d46.098387236585374!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x480137d1b4012f9f%3A0xf8aa336bb7487403!2sC+B+G+Peinture!5e0!3m2!1sfr!2sfr!4v1564583437353!5m2!1sfr!2sfr" width="100%" height="450" frameborder="0" style="border:0;margin:0;padding:0;" allowfullscreen ></iframe>
+		
+		<footer class="pt-4" style="background:#252525;">
+			<div class="container-fluid">
+				<div class="col-md-12 req-quote py-5 img mb-5" style="background-image: url(images/bg_1.jpg);">
+		    		<h3 class="ml-md-3">Vous voulez nous contacter ?</h3>
 	    		</div>
-	    	</div>
-	    </section>
-      
-		<footer class="ftco-footer ftco-section img">
-				<div class="overlay"></div>
-			  <div class="container">
+			</div>
+			  <div class="container">  	
 				<div class="row mb-5">
-				  <div class="col-md-8">
-					<div style="margin-top: 30px; margin-bottom: -50px" class="	 order-first ftco-animate">
+				  <div class="col-lg-7">
 						<form action="/mail.php" method="post">
-							<div class="form-group col-lg-12" style="display: flex">
-								<input type="text" class="form-control" placeholder="Votre Nom">
-								<input style="margin-left: 2%" name="email" type="email" class="form-control" placeholder="Votre Email" id="exampleInputEmail1" aria-describedby="emailHelp">
+							<div class="form-group">
+								<input type="text" class="form-control" placeholder="Votre Nom" style="width:90%;!important">								
 							</div>
-
-							<div class="form-group col-lg-12">
-								<input style="width: 68.5%" name="name" type="text" class="form-control" placeholder="Sujet" id="exampleInputPassword1">
+							<div class="form-group">
+								<input name="email" type="email" class="form-control" placeholder="Votre Email" id="exampleInputEmail1" style="width:90%;!important">
 							</div>
-							<div class="form-group col-lg-12">
-								<textarea style="width: 68.5%" name="message" id="exampleFormControlTextarea1" cols="30" rows="8" class="form-control" placeholder="Message"></textarea>
+							<div class="form-group">	
+								<input name="name" type="text" class="form-control" placeholder="Sujet" id="exampleInputPassword1" style="width:90%;!important">
 							</div>
-							<div class="form-group col-lg-12">
+							<div class="form-group">
+								<textarea name="message" id="exampleFormControlTextarea1" rows="8" class="form-control" placeholder="Message" style="width:90%;!important"></textarea>
+							</div>
+							<div class="form-group">
 								<input type="submit" value="Envoyer le Message" class="btn btn-primary py-3 px-5">
 							</div>
 						</form>
-					</div>
 				  </div>
-
-				  <div class="col-md-4">
+				  <div class="col-lg-5">
 					<div class="ftco-footer-widget mb-4">
-						<h2 class="ftco-heading-2">CBG Peinture</h2>
+						<h2 class="ftco-heading-2" style="color:white;">CBG Peinture</h2>
 						<p><strong>Cette entreprise</strong> a été créée en février 2009 par Grégory BITARD. Notre équipe vous accueille pour tous vos travaux en carrosserie & peinture, du lundi au vendredi.</p>
 					</div>
 
 				 
 					<div class="ftco-footer-widget mb-4">
-						<h2 class="ftco-heading-2">Nous contacter ?</h2>
+						<h2 class="ftco-heading-2" style="color:white;">Nous contacter ?</h2>
 						<div class="block-23 mb-3">
 						  <ul style="margin-bottom: -30px">
 							<li><span class="icon icon-map-marker"></span><span class="text">7 rue du petit Bois
@@ -433,7 +425,9 @@
 						</div>
 					</div>
 				  </div>
+					
 				</div>
+				  
 				<div style="margin-bottom: -80px; margin-top: -30px" class="row">
 				  <div class="col-md-12 text-center">
 	
